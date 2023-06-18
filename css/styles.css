@@ -5,9 +5,30 @@ body {
   background-color: var(--background-own);
   text-decoration: none;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
 :root {
   --second-font: "Raleway", sans-serif;
-  --ctas-norm: #4d5ae5;
+  --cta-norm: #4d5ae5;
   --ctas-activ: #404bbf;
   --headings-three: #2e2f42;
   --body-text: #434455;
@@ -17,8 +38,12 @@ body {
 
 .own-header {
 }
+.nav-header {
+}
+
 .list {
   list-style: none;
+  padding: 10px;
 }
 .link {
   text-decoration: none;
@@ -33,6 +58,7 @@ body {
   text-transform: uppercase;
   color: var(--ctas-norm);
 }
+
 .logo-stud,
 .logo-stud-foot {
   font-family: var(--second-font);
@@ -46,10 +72,18 @@ body {
 .logo-stud-foot {
   color: var(--headings-three);
 }
-.ul-head {
+
+.nav-header,
+.ul-head,
+.list {
+  display: flex;
+  gap: 5px;
 }
 .head-link {
   text-decoration: none;
+  padding: 10px;
+  margin: 0;
+  display: flex;
 }
 .studio-link {
   font-family: "Roboto";
@@ -215,6 +249,12 @@ body {
 .but-list {
 }
 /*our prodgect*/
+.ul-progect {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-evenly;
+}
 .progect-list {
 }
 .prodgect-ti-two {
