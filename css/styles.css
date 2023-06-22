@@ -55,7 +55,6 @@ img {
 }
 .ul-head {
   margin-right: 332px;
-  margin-left: 76px;
 }
 
 .nav-header,
@@ -66,7 +65,6 @@ img {
   gap: 40px;
 }
 .div-logo {
-  margin-right: 76px;
 }
 
 .list {
@@ -85,9 +83,10 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--ctas-norm);
+}
+.logo-stud {
   margin-right: 76px;
 }
-
 .logo-stud,
 .logo-stud-foot {
   font-family: var(--second-font);
@@ -102,7 +101,6 @@ img {
   color: var(--headings-three);
 }
 .ul-head {
-  padding: 24px 0;
 }
 
 .head-link {
@@ -119,6 +117,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--headings-three);
+  padding: 24px 0;
 }
 .studio-link:hover,
 .studio-link:focus {
@@ -195,7 +194,7 @@ img {
 }
 .ul-benef {
   display: flex;
- 
+
   height: 104px;
   flex-shrink: 0;
   gap: 24px;
@@ -203,7 +202,7 @@ img {
 }
 
 .benef-list {
-   width calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .benef-tit-three {
@@ -234,7 +233,6 @@ img {
 .opport-list {
   width: calc((100% - 2 * 24px) / 3);
 }
-
 
 .opport-tit-two {
   font-weight: 700;
@@ -332,9 +330,8 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--ctas-norm);
-  display: inline-block; 
-  margin-bottom: 16px; 
-  margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .logo-stud-foot {
   color: #f4f4fd;
@@ -346,7 +343,6 @@ img {
 .prodgect {
   padding-top: 96px;
   padding-bottom: 120px;
-  
 }
 
 .portfol-list,
@@ -378,7 +374,6 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 .prodgect-ti-two {
   font-family: "Roboto";
@@ -388,6 +383,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--headings-three);
+  margin-bottom: 8px;
 }
 .prodgect-text {
   font-family: "Roboto";
