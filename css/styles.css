@@ -48,11 +48,11 @@ img {
 }
 .div-header {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
   gap: 10px;
+  justify-content: space-between;
 }
 .ul-head {
-  margin-right: 332px;
 }
 
 .nav-header,
@@ -67,7 +67,6 @@ img {
 
 .list {
   list-style: none;
-  padding: 10px;
 }
 .link {
   text-decoration: none;
@@ -104,8 +103,6 @@ img {
 .head-link {
   text-decoration: none;
   margin: 0;
-  display: flex;
-  padding: 24px 0;
 }
 .studio-link {
   font-family: "Roboto";
@@ -125,6 +122,8 @@ img {
 .address-head,
 .addres-link {
   font-style: normal;
+}
+.ul-address {
 }
 
 .own-mail-mail {
