@@ -353,8 +353,8 @@ img {
 /* PAGE-2 */
 
 /* Filtr */
-.prodgect,
-.div-prodgect {
+.prodgect {
+  display: block;
   padding-top: 96px;
   padding-bottom: 120px;
 }
@@ -365,12 +365,13 @@ img {
 .ul-head {
   list-style-type: none;
 }
-.but-list {
+.portfol-listt {
 }
 /*our prodgect*/
 .ul-filtr {
   display: flex;
   justify-content: center;
+
   gap: 24px;
   margin-bottom: 72px;
 }
