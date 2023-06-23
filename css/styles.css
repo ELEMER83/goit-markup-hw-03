@@ -354,7 +354,6 @@ img {
 
 /* Filtr */
 .prodgect {
-  display: block;
   padding-top: 96px;
   padding-bottom: 120px;
 }
@@ -366,13 +365,19 @@ img {
   list-style-type: none;
 }
 .portfol-listt {
+  margin-right: 0 auto;
+  align-items: center;
+  justify-content: stretch;
 }
 /*our prodgect*/
 .ul-filtr {
   display: flex;
   justify-content: center;
+  align-items: center;
 
   gap: 24px;
+  margin-right: 427px;
+  margin-left: 427px;
   margin-bottom: 72px;
 }
 .ul-progect {
