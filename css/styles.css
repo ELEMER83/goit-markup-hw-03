@@ -365,21 +365,16 @@ img {
   list-style-type: none;
 }
 .portfol-listt {
-  margin-right: 0 auto;
-  align-items: center;
-  justify-content: stretch;
 }
 /*our prodgect*/
 .ul-filtr {
   display: flex;
   justify-content: center;
-  align-items: center;
-
   gap: 24px;
-  margin-right: 427px;
-  margin-left: 427px;
+
   margin-bottom: 72px;
 }
+
 .ul-progect {
   display: flex;
   flex-wrap: wrap;
@@ -428,6 +423,7 @@ img {
   padding: 12px 24px;
   border: 1px solid var(--border-bottom);
   border-radius: 4px;
+  margin: 0 auto;
 }
 
 .butt-filtr-all:hover,
