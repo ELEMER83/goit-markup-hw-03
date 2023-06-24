@@ -354,8 +354,7 @@ img {
 
 /* Filtr */
 .prodgect {
-  padding-top: 96px;
-  padding-bottom: 120px;
+  padding: 96px 0 120px 0);
 }
 
 .portfol-list,
